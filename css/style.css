@@ -1,0 +1,19 @@
+html {
+  font-family: 'Dokdo', cursive;
+}
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#logo{
+  width:30%;
+}
+nav{
+  width:70%;
+}
+#navegacion{
+  width:100%;
+}
