@@ -2,20 +2,38 @@ html {
   font-family: 'Dokdo', cursive;
 }
 
+a href {
+  font-style: normal;
+  text-decoration-color: black;
+}
+
 header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  height: 10%;
+  height: 50px;
+  width: 100%;
+  background-color: black;
 }
-#logo{
-  width:100px;
-  height:100%;
+
+nav {
+  width: 70%;
+  order: 2;
 }
-nav #navegacion {
+
+#logoContainer {
+  width: 10%;
+  order: 1;
+}
+
+.logo {
+  width: 100%;
+}
+
+#navegacion {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width:(100%-100px);
+  width: 70%;
 }
