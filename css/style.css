@@ -2,18 +2,20 @@ html {
   font-family: 'Dokdo', cursive;
 }
 
-header nav{
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 10%;
+}
+#logo{
+  width:100px;
+  height:100%;
+}
+nav #navegacion {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-#logo{
-  width:30%;
-}
-nav{
-  width:70%;
-}
-#navegacion{
-  width:100%;
+  justify-content: space-around;
+  width:(100%-100px);
 }
