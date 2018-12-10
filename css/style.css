@@ -71,7 +71,9 @@ footer{
   justify-content: space-around;
   padding:0;
 }
-
+.caption {
+      display: block;
+}
 #footerSocial {
   width: 50px;
 }
