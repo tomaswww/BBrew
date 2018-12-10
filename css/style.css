@@ -1,5 +1,6 @@
 html {
   font-family: "Dosis";
+  background-color: lightgrey;
 }
 
 a {
@@ -55,12 +56,19 @@ main {
 /* Footer style */
 
 /* Icons from: https://www.iconfinder.com/iconsets/social-media-2208 */
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color:#80808066
+}
 #footerList {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: grey;
   padding:0;
 }
 
