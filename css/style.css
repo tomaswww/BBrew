@@ -4,10 +4,12 @@ html {
 
 a {
   color:white;
+  text-decoration: none;
 }
 
 li{
   list-style: none;
+  text-decoration: none;
 }
 
 header {
@@ -41,4 +43,19 @@ nav {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+}
+
+/* Footer style */
+
+#footerList {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: grey;
+  padding:0;
+}
+
+#footerSocial {
+  width: 50px;
 }
