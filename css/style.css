@@ -70,17 +70,20 @@ footer {
 
 #footerList {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 0;
+  flex-direction: row;
+  justify-content: center;
+
 }
 
 .caption {
   display: block;
-  font-size: auto;
+  text-align: center;
+  padding-right: 50%;
 }
 
 #footerSocial {
+  align-items: center;
   width: 50px;
+  padding-right: 50%;
 }
